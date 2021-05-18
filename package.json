@@ -1,0 +1,89 @@
+{
+  "name": "ktkim-resume",
+  "lastestUpdatedAt": "2021-05-18",
+  "version": "1.0.4",
+  "description": "Static HTML based RESUME made with next.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env DEBUG=yosume:* next",
+    "build": "next build",
+    "prebuild": "npm install && npm run lint",
+    "start": "next start",
+    "export:with-typedoc": "npm run export && npm run typedoc",
+    "export": "cross-env NODE_ENV=production next export --outdir docs/",
+    "preexport": "npm run clean && npm run build",
+    "postexport": "node shellwork.js",
+    "clean": "npx rimraf docs .next",
+    "lint": "eslint 'component/**/*' 'pages/**/*' 'payload/**/*' '*.ts' --fix --no-error-on-unmatched-pattern",
+    "typedoc": "typedoc --excludeExternals"
+  },
+  "homepage": "https://ktkim-resume.github.io/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyungtae-K/ktkim-resume.github.io.git"
+  },
+  "keywords": [
+    "resume",
+    "next"
+  ],
+  "author": {
+    "name": "Kim Kyung Tae",
+    "email": "nibabooji@gmail.com",
+    "url": "https://"
+  },
+  "contributors": [],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kyungtae-K/ktkim-resume.github.io/issues"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.34",
+    "@fortawesome/free-brands-svg-icons": "^5.15.2",
+    "@fortawesome/free-regular-svg-icons": "^5.15.2",
+    "@fortawesome/free-solid-svg-icons": "^5.15.2",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@types/debug": "^4.1.5",
+    "bootstrap": "^4.6.0",
+    "chalk": "^4.1.0",
+    "debug": "^4.3.1",
+    "jquery": "^3.5.1",
+    "luxon": "^1.26.0",
+    "next": "^10.2.0",
+    "next-images": "^1.7.0",
+    "next-seo": "^4.20.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "reactstrap": "^8.9.0",
+    "shelljs": "^0.8.4",
+    "styled-components": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/luxon": "^1.26.0",
+    "@types/next-seo": "^1.10.0",
+    "@types/node": "^13.13.45",
+    "@types/react": "^16.14.4",
+    "@types/shelljs": "^0.8.8",
+    "@types/styled-components": "^5.1.7",
+    "@typescript-eslint/eslint-plugin": "^2.34.0",
+    "@typescript-eslint/parser": "^2.34.0",
+    "cpy-cli": "^3.1.1",
+    "cross-env": "^7.0.3",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-airbnb-typescript": "^7.2.1",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^2.5.1",
+    "prettier": "^1.19.1",
+    "rimraf": "^3.0.2",
+    "typedoc": "^0.20.36",
+    "typescript": "^4.2.2"
+  },
+  "resolutions": {
+    "**/minimist": "^1.2.3"
+  }
+}
