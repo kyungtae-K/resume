@@ -1,13 +1,12 @@
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faBell } from '@fortawesome/free-regular-svg-icons';
 import { faTelegram } from '@fortawesome/free-brands-svg-icons';
-import image from '../asset/ktkim.png';
+import image from '../asset/_ktkim.png';
 import { IProfile } from '../component/profile/IProfile';
 
 const profile: IProfile.Payload = {
   disable: false,
 
-  // image: 'https://resume.yowu.dev/static/image/profile_2019.png',
   image,
   name: {
     title: '김경태',

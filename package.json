@@ -15,7 +15,7 @@
     "preexport": "npm run clean && npm run build",
     "postexport": "node shellwork.js",
     "clean": "npx rimraf docs .next",
-    "lint": "eslint 'component/**/*' 'pages/**/*' 'payload/**/*' '*.ts' --fix --no-error-on-unmatched-pattern",
+    "lint": "eslint \"component/**/*\" \"pages/**/*\" \"payload/**/*\" \"*.ts\" --fix",
     "typedoc": "typedoc --excludeExternals"
   },
   "homepage": "https://ktkim-resume.github.io/",
