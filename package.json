@@ -18,7 +18,7 @@
     "lint": "eslint \"component/**/*\" \"pages/**/*\" \"payload/**/*\" \"*.ts\" --fix",
     "typedoc": "typedoc --excludeExternals"
   },
-  "homepage": "https://ktkim-resume.github.io/",
+  "homepage": "https://kyungtae-k.github.io/resume/",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kyungtae-K/ktkim-resume.github.io.git"
