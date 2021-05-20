@@ -4,10 +4,11 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
-      title: 'SKP H 서비스 유지보수',
+      title: 'SKP Hoppin 서비스 유지보수',
       startedAt: '2014-08',
       endedAt: '2015-11',
       where: '(주)디지캡',
+      skillKeywords: ['C#', 'ASP.net', 'MSSQL'],
       descriptions: [
         { content: '관리자 페이지 유지보수.' },
         {
@@ -22,6 +23,7 @@ const project: IProject.Payload = {
       startedAt: '2015-12',
       endedAt: '2018-12',
       where: '(주)디지캡',
+      skillKeywords: ['python(flask)', 'java(spring)', 'bootstrap', 'mariaDB'],
       descriptions: [
         { content: '시스템 설계 참여.' },
         { content: '서버 환경 구성.' },
@@ -35,6 +37,7 @@ const project: IProject.Payload = {
       startedAt: '2015-09',
       endedAt: '2016-12',
       where: '(주)디지캡',
+      skillKeywords: ['java(spring)', 'bootstrap', 'Oracle'],
       descriptions: [
         { content: '서버 환경 구성.' },
         { content: 'CP/DP 이미지 파일 관리 페이지 개발.' },
@@ -42,10 +45,11 @@ const project: IProject.Payload = {
       ],
     },
     {
-      title: '학원 App DRM 관리 페이지',
+      title: '윤선생 App DRM 관리 페이지',
       startedAt: '2016-01',
       endedAt: '2016-03',
       where: '(주)디지캡',
+      skillKeywords: ['java(spring)', 'bootstrap', 'mariaDB'],
       descriptions: [{ content: '서버 환경 구성.' }, { content: 'DRM 관리 페이지 개발.' }],
     },
     {
@@ -53,6 +57,7 @@ const project: IProject.Payload = {
       startedAt: '2017-11',
       endedAt: '2018-02',
       where: '(주)디지캡',
+      skillKeywords: ['java(spring)', 'bootstrap', 'mariaDB'],
       descriptions: [
         { content: '시스템 설계 참여.' },
         { content: '서버 환경 구성.' },
@@ -61,10 +66,16 @@ const project: IProject.Payload = {
       ],
     },
     {
-      title: 'SKB E* 프로젝트',
+      title: 'SKB ECDN 프로젝트',
       startedAt: '2017-09',
       endedAt: '2020-01',
       where: '(주)디지캡',
+      skillKeywords: [
+        'java(spring)',
+        'mariaDB',
+        'jenkins',
+        'Atlassian(jira, confluence, bitbucket)',
+      ],
       descriptions: [
         {
           content: '2017~2018 1차',
@@ -90,6 +101,7 @@ const project: IProject.Payload = {
       startedAt: '2020-08',
       endedAt: '2021-03',
       where: '(주)디지캡',
+      skillKeywords: ['java(spring)', 'react.js', 'mariaDB', 'redis', 'jenkins'],
       descriptions: [
         { content: '시스템 설계 참여.' },
         { content: '선생님 / 학생 프론트 페이지 개발' },
@@ -101,6 +113,7 @@ const project: IProject.Payload = {
       startedAt: '2020-12',
       endedAt: '2021-05',
       where: '(주)디지캡',
+      skillKeywords: ['java(spring)', 'mariaDB'],
       descriptions: [{ content: 'DRM proxy 서버 개발 중' }],
     },
   ],

@@ -21,6 +21,8 @@ function Component({ payload }: PropsWithChildren<{ payload: IFooter.Payload }>)
               <HrefTargetBlank url="https://github.com/uyu423/resume-nextjs" text="Github" />
               {' / '}
               Thanks for <HrefTargetBlank url="https://blog.outsider.ne.kr/1234" text="Outsider" />
+              {' / '}
+              Custom by <HrefTargetBlank url="https://github.com/kyungtae-K" text="ktkim" />
             </small>
           </EmptyRowCol>
           <EmptyRowCol>
