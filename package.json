@@ -1,6 +1,6 @@
 {
   "name": "ktkim-resume",
-  "lastestUpdatedAt": "2021-05-18",
+  "lastestUpdatedAt": "2021-05-20",
   "version": "1.0.4",
   "description": "Static HTML based RESUME made with next.js",
   "main": "index.js",
