@@ -25,7 +25,7 @@ const project: IProject.Payload = {
       where: '(주)디지캡',
       skillKeywords: ['python(flask)', 'java(spring)', 'bootstrap', 'mariaDB'],
       descriptions: [
-        { content: '시스템 설계 참여.' },
+        { content: '시스템 기획/설계 참여.' },
         { content: '서버 환경 구성.' },
         { content: 'Widevine license server 개발.' },
         { content: 'Playready license server 개발.' },
@@ -39,6 +39,7 @@ const project: IProject.Payload = {
       where: '(주)디지캡',
       skillKeywords: ['java(spring)', 'bootstrap', 'Oracle'],
       descriptions: [
+        { content: '시스템 기획/설계 참여.' },
         { content: '서버 환경 구성.' },
         { content: 'CP/DP 이미지 파일 관리 페이지 개발.' },
         { content: 'DP 이미지 배포 모듈 개발.' },
@@ -50,7 +51,11 @@ const project: IProject.Payload = {
       endedAt: '2016-03',
       where: '(주)디지캡',
       skillKeywords: ['java(spring)', 'bootstrap', 'mariaDB'],
-      descriptions: [{ content: '서버 환경 구성.' }, { content: 'DRM 관리 페이지 개발.' }],
+      descriptions: [
+        { content: '시스템 기획/설계 참여.' },
+        { content: '서버 환경 구성.' },
+        { content: 'DRM 관리 페이지 개발.' },
+      ],
     },
     {
       title: '해외 W 업체 Widevine DRM 서비스',
@@ -59,7 +64,7 @@ const project: IProject.Payload = {
       where: '(주)디지캡',
       skillKeywords: ['java(spring)', 'bootstrap', 'mariaDB'],
       descriptions: [
-        { content: '시스템 설계 참여.' },
+        { content: '시스템 기획/설계 참여.' },
         { content: '서버 환경 구성.' },
         { content: 'Widevine license server 개발.' },
         { content: '관리자 페이지 개발.' },
@@ -94,6 +99,11 @@ const project: IProject.Payload = {
             { content: 'DRM DB 이중화 담당.' },
           ],
         },
+        {
+          content: '유지 보수 (2021년 7월 현재 계속 진행 중)',
+          weight: 'MEDIUM',
+          descriptions: [{ content: 'DRM 시스템 유지보수.' }],
+        },
       ],
     },
     {
@@ -111,10 +121,10 @@ const project: IProject.Payload = {
     {
       title: '해외 ATSC DRM 서버 개발 진행 중',
       startedAt: '2020-12',
-      endedAt: '2021-05',
+      endedAt: '2021-07',
       where: '(주)디지캡',
-      skillKeywords: ['java(spring)', 'mariaDB'],
-      descriptions: [{ content: 'DRM proxy 서버 개발 중' }],
+      skillKeywords: ['java(spring)', 'react.js', 'mariaDB'],
+      descriptions: [{ content: '시스템 설계 참여.' }, { content: 'DRM proxy 서버 개발 중' }],
     },
   ],
 };
