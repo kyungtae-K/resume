@@ -1,2 +1,2 @@
 npm run clean
-npm run exp
+npm run export
